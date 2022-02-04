@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+main {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+}
+img {
+    height: 220px;
+    width: 220px;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-weight: 300;
+    font-size: 20px;
+}
+.firstname {
+    font-weight: 400;
+}
+.left-wrapper {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    background-color: #26252b;
+}
+.photo-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.photo {
+    background-color: #ebebeb;
+    border-radius: 0 0 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.photo-background {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.left-right-25 {
+    width: 5%;
+    height: 100%;
+    background: #26252b;
+    display: flex;
+    align-items: center;
+}
+.yellow {
+    background: #ffcc01;
+    width: 100%;
+    height: 60%;
+    margin-bottom: 10px;
+}
+.description-wrapper-white {
+    padding-left: 10%;
+    background: #ebebeb;
+    width: 90%;
+    display: flex;
+    height: 100%;
+}
+.description-wrapper-grey {
+    background: #26252b;
+    width: 100%;
+    border-radius: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.right-wrapper {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+.right-wrapper h1, .right-wrapper h2, .right-wrapper h3 {
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+.right-white-top-wrap {
+    width: 100%;
+    height: 21.2vw;
+}
+.right-white-top {
+    height: 290px;
+    display: flex;
+    align-items: center;
+}
+.right-yellow-top {
+    background-color: #ffcc01;
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-wrapper {
+    color: #fff;
+}
+.left-wrapper h3 {
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 3px solid #fff;
+    padding-bottom: 10px;
+    margin-right: 40px;
+}
